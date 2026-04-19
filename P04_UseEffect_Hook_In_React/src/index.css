@@ -1,0 +1,47 @@
+body {
+  background-color: #232721;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-counter {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  background-color: white;
+  width: 400px;
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn-action {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: large;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
