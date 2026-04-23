@@ -41,10 +41,12 @@ Each project in this repository follows a consistent structure:
 ## 📂 Project Roadmap
 
 ### 🟢 Beginner Level
-- [ ] Counter App (State Basics)
-- [ ] Toggle Theme (useState)
-- [ ] Todo List (State + Lists + Events)
-- [ ] Form Handling (Controlled Components)
+- [x] React Todo App (React Basics)
+- [x] React Todo App (Props Basics)
+- [x] Counter App (State Basics)
+- [x] Counter App (State + Hooks Basics)
+- [x] Tic-Tac-Toe App (Props + useState + useEffect Hooks)
+- [ ] React - Fetch Data from API
 
 ### 🟡 Intermediate Level
 - [ ] Weather App (API Integration)
