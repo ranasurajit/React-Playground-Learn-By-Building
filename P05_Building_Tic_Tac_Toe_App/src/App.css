@@ -1,0 +1,47 @@
+.game-container {
+  display: block;
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-cell {
+  padding: 50px 60px;
+  border: 2px solid #000;
+  font-size: xxx-large;
+  position: relative;
+}
+
+.board-turn {
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: coral;
+}
+
+.board-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cell-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.btnReset {
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  border: none;
+}
