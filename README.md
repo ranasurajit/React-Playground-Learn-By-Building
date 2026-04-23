@@ -46,7 +46,7 @@ Each project in this repository follows a consistent structure:
 - [x] Counter App (State Basics)
 - [x] Counter App (State + Hooks Basics)
 - [x] Tic-Tac-Toe App (Props + useState + useEffect Hooks)
-- [ ] React - Fetch Data from API
+- [x] React - Fetch Data from API
 
 ### 🟡 Intermediate Level
 - [ ] Weather App (API Integration)
