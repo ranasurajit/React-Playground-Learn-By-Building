@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 
-const API_KEY = '0d43ff1077dd4bbc83c171842262704';
+const API_KEY = '';
 
 const WeatherContext = createContext(null);
 
