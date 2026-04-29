@@ -49,6 +49,7 @@ Each project in this repository follows a consistent structure:
 - [x] React - Fetch Data from API
 - [x] React - Context API - Part 1 (Counter App)
 - [x] React - Context API - Part 2 (Product Cart App)
+- [ ] React - Router (Recipes App)
 
 ### 🟡 Intermediate Level
 - [ ] Weather App (API Integration)
