@@ -52,7 +52,7 @@ Each project in this repository follows a consistent structure:
 - [x] React - Router (Recipes App)
 
 ### 🟡 Intermediate Level
-- [ ] Weather App (API Integration)
+- [x] Weather App (API Integration)
 - [ ] Movie Search App (Debouncing + API)
 - [ ] Notes App (CRUD + Local Storage)
 - [ ] React Router App (Multi-page navigation)
