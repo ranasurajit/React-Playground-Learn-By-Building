@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 
-const API_KEY = '';
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const WeatherContext = createContext(null);
 
@@ -49,10 +49,12 @@ export const WeatherContextProvider = (props) => {
         navigator.geolocation.getCurrentPosition((position) => {
             const { latitude, longitude } = position.coords;
             const locationQuery = `${latitude},${longitude}`;
+            setQuery(locationQuery);
             fetchWeather(locationQuery);
         }, (error) => {
             console.error('Error in fetching the location', error);
             const fallback = 'India';
+            setQuery(fallback);
             fetchWeather(fallback);
         })
     }, []);
