@@ -10,10 +10,10 @@ dispatch, and selector** along with modern UI using Tailwind CSS.
 
 ## ✨ Features
 
--   ➕ Increment Counter\
--   ➖ Decrement Counter\
--   🔄 Reset Counter\
--   🌐 Global State Management using Redux\
+-   ➕ Increment Counter
+-   ➖ Decrement Counter
+-   🔄 Reset Counter
+-   🌐 Global State Management using Redux
 -   🎨 Modern UI with Tailwind CSS
 
 ------------------------------------------------------------------------
