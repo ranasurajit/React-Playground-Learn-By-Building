@@ -53,6 +53,7 @@ Each project in this repository follows a consistent structure:
 
 ### 🟡 Intermediate Level
 - [x] Weather App (API Integration)
+- [x] React Redux - Counter App
 - [ ] Movie Search App (Debouncing + API)
 - [ ] Notes App (CRUD + Local Storage)
 - [ ] React Router App (Multi-page navigation)
