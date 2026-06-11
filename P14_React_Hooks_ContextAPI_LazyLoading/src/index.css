@@ -14,13 +14,13 @@ body {
   box-sizing: border-box;
 }
 
-.light {
+body.light {
   background-color: #ffffff;
   color: #111827;
   min-height: 100vh;
 }
 
-.dark {
+body.dark {
   background-color: #111827;
   color: #ffffff;
   min-height: 100vh;

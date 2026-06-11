@@ -6,6 +6,7 @@ import { useTheme } from '../contexts/ThemeContext';
 
 const Navbar = () => {
     const { theme, toggleTheme } = useTheme();
+    console.log('Navbar rendered!');
 
     return (
         <nav className='navbar'>
