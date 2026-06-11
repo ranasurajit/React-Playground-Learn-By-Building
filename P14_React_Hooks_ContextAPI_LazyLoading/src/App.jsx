@@ -1,6 +1,8 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import { lazy, Suspense } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import { useTheme } from './contexts/ThemeContext';
 
 const Home = lazy(() => import('./pages/Home'));
 const Tasks = lazy(() => import('./pages/Tasks'));
@@ -13,8 +15,10 @@ const fallbackRoute = () => {
 };
 
 const App = () => {
+  const { theme } = useTheme();
+
   return (
-    <>
+    <div className={theme}>
       <BrowserRouter>
         <Navbar />
         <Suspense fallback={fallbackRoute()}>
@@ -25,7 +29,7 @@ const App = () => {
           </Routes>
         </Suspense>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 
