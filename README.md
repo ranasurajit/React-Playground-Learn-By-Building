@@ -56,6 +56,7 @@ Each project in this repository follows a consistent structure:
 - [x] React Redux - Counter App
 - [x] React Redux - Product Cart App
 - [x] React Redux - API calls with Thunk Middleware
+- [x] React Zustand - Course Tracker App 
 - [ ] Movie Search App (Debouncing + API)
 - [ ] Notes App (CRUD + Local Storage)
 - [ ] React Router App (Multi-page navigation)
